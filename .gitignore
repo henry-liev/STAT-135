@@ -1,0 +1,12 @@
+# Ignore everything by default
+*
+
+# Only allow lecture PDFs from Notes folder
+!Notes/
+!Notes/*.pdf
+
+# But ignore the Lecture Summary PDF
+Notes/STAT 135 Quiz 1 Lecture Summaries.pdf
+
+# Keep the .gitignore file itself
+!.gitignore 
